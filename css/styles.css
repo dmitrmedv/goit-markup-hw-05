@@ -535,6 +535,7 @@ a {
   background-color: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
   position: absolute;
+  height: 100%;
   top: 0;
   left: 0;
   transform: translateY(100%);
@@ -677,6 +678,7 @@ a {
 }
 
 .backdrop.is-hidden {
+  visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
